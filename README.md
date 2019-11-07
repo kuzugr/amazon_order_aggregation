@@ -6,8 +6,8 @@
 - 拡張機能を使って購入履歴をCSVでダウンロードする
   - 拡張機能の使い方はこちらを参考にすると良い
     - https://memo.furyutei.work/entry/amzOrderHistoryFilter
-  - `csvs/sample.csv_`のような形式のCSVがダウンロードできる
+  - `csvs/sample.csv_`にあるCSVのような形式のCSVがダウンロードできる
   - `.csv`しか集計対象に入らないので`sample.csv_`は削除不要
 - `csvs`ディレクトリ下にダウンロードしたCSVを全てコピーする
 - `ruby amazon_order_aggregation.rb`を実行
-- 標準出力に購入月に対する合計購入額と前月比がカンマ区切りで出力されるのでCSVに保存するなりなんなりと。
+- 標準出力に購入月に対する合計購入額と前月比がカンマ区切りで出力されるのでCSVに保存するなりなんなりと
